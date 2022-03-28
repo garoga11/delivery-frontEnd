@@ -41,10 +41,11 @@ export default class Login extends React.Component{
                             <input className="mb-12 border-b-2 border-gray-200 focus:outline-none focus:border-0 focus:border-b-2 focus:border-blue-600 focus:text-gray-400" type="text"/>
                             <p className="text-left mb-3 ml-16">Contraseña</p>
                             <input className="border-b-2 border-gray-200 focus:outline-none focus:border-0 focus:border-b-2 focus:border-blue-600 focus:text-gray-400" type="password"/>
-
-                            <button className="mt-10 w-full py-3 rounded-3xl bg-blue-500 text-white hover:bg-blue-600 hover:border-0 hover:-translate-y-1 hover:shadow-md delay-75 duration-100">
-                            Inicia sesión para continuar
-                            </button>
+                            <Link to="/customerHome">
+                                <button className="mt-10 w-full py-3 rounded-3xl bg-blue-500 text-white hover:bg-blue-600 hover:border-0 hover:-translate-y-1 hover:shadow-md delay-75 duration-100">
+                                Inicia sesión para continuar
+                                </button>
+                            </Link>
                             <p className="text-xs font-light mt-3 "> ¿No tienes cuenta? <a className="text-gray-500 hover:text-blue-600" href="/decision">Registrate aquí</a></p>
                         </card>
                     {/* </div> */}
