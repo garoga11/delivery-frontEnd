@@ -16,7 +16,7 @@ export default class RegisterDecision extends React.Component{
                     <div className="flex flex-col h-full items-center justify-center">
                         {/* <div className=" w-full bg-no-repeat bg-cover bg-RegisterDeliverymancenter" style="background-image: url('https://images.pexels.com/photos/11341064/pexels-photo-11341064.jpeg?auto=compress&cs=tinysrgb&h=650&w=940')"> */}
 
-                            <div className="grid sm:grid-cols-2 bg-white rounded-[60px] sm:px-0 px-10 shadow items-center justify-center">
+                            <div className="grid sm:grid-cols-2 bg-white rounded-[60px] sm:px-0 px-10 shadow items-center justify-center h-96">
                                 <div className="sm:pl-16 ">
                                     <div className="grid grid-rows-3 text-center">
                                         <div className="mb-5">
@@ -41,7 +41,7 @@ export default class RegisterDecision extends React.Component{
                                     </div>
                                 </div>
                                 <div className="sm:block hidden">
-                                    <img src={logo} alt="" className="w-80"/>
+                                    <img src={logo} alt="" className="w-60 mb-24"/>
                                 </div>
                             </div>
                         {/* </div> */}
