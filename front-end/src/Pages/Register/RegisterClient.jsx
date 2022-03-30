@@ -20,7 +20,7 @@ export default class RegisterClient extends React.Component {
               action=""
               className="flex flex-col justify-center items-center"
             >
-              <div className=" bg-white md:w-[52rem]  rounded-[60px] shadow flex flex-col md:px-24 py-11">
+              <div className=" bg-white md:w-[52rem] w-[22rem]  rounded-[60px] shadow flex flex-col md:px-24 py-11">
                 <div className="grid md:grid-cols-2 grid-cols-1 place-content-center place-items-center">
                   <div className="">
                     <h1 className="font-bold text-4xl">Regístrate aquí</h1>

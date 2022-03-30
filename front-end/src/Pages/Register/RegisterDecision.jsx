@@ -10,7 +10,7 @@ export default class RegisterDecision extends React.Component{
                 <div className="flex flex-col h-screen bg-blue-400">
                     <div className="pt-5 flex justify-around items-center">
                         <img src={logo} className="w-20"/>
-                        <p className="text-center text-white font-bold text-xl italic">Envios economicos y rápidos</p>
+                        <p className="text-center text-white font-bold text-xl italic">Envios económicos y rápidos</p>
                         <img src={logo} className="w-20"/>
                     </div>
                     <div className="flex flex-col h-full items-center justify-center">

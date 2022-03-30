@@ -34,7 +34,7 @@ export default class Login extends React.Component{
                 <div className="flex h-screen items-center justify-center bg-blue-400">
                     {/* <div className=" w-full bg-no-repeat bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/11341064/pexels-photo-11341064.jpeg?auto=compress&cs=tinysrgb&h=650&w=940')"> */}
                         <img src={logo} className="w-20 absolute top-10 left-10"/>
-                        <card className="w-96 rounded-2xl border shadow py-12 px-8 text-center bg-white">
+                        <card className="m:w-96 w-80 rounded-2xl border shadow py-12 px-8 text-center bg-white">
                             <p className="text-3xl font-semibold"> Inicia Sesión </p>
                             <p className="text-xs font-extralight mt-1 mb-20"> Introduce los datos de tu cuenta para continuar </p>
                             <p className="text-left mb-3 ml-16">Usuario</p>
