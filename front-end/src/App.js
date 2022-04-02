@@ -4,6 +4,7 @@ import RegisterClient from './Pages/Register/RegisterClient';
 import RegisterDeliveryman from "./Pages/Register/RegisterDeliveryman";
 import RegisterDecision from "./Pages/Register/RegisterDecision";
 import CustomerHome from "./Pages/Home/CustomerHome";
+import Profile from "./Pages/Profile/Profile";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/deliverymanRegister" element={<RegisterDeliveryman/>}/>
         <Route path="/decision" element={<RegisterDecision/>}/>
         <Route path="/customerHome" element={<CustomerHome/>}/>
+        <Route path="/profile" element={<Profile/>}/>
     </Routes>
 </BrowserRouter>
 
