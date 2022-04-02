@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import logo from "../../Assets/Images/logo.png"
+import logo from "../../Assets/Images/biglogo_white.png"
 
 export default class RegisterDecision extends React.Component{
     render(){
