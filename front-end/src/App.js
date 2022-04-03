@@ -11,6 +11,7 @@ import RequestComponent from "./Pages/Administrator/Requests"
 import Products from "./Pages/Administrator/Products"
 import ShippingAddress from "./Pages/Customer/ShippingAddress"
 import PhysicalPerson from "./Pages/Customer/PhysicalPerson"
+import Company from "./Pages/Customer/Company"
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/products" element={<Products/>}/>
         <Route path="/shipping" element={<ShippingAddress/>}/>
         <Route path="/physicalperson" element={<PhysicalPerson/>}/>
+        <Route path="/company" element={<Company/>}/>
     </Routes>
 </BrowserRouter>
 

@@ -4,7 +4,7 @@ const ProfileComponent = () => {
   return (
     <div className="">
       <div className="flex flex-col justify-center items-center min-h-screen">
-        <div className=" bg-white md:w-[52rem] w-[22rem]  rounded-[60px] shadow flex flex-col md:px-24 py-11">
+        <div className=" bg-white md:w-[45rem] w-[22rem]  rounded-[60px] shadow flex flex-col md:px-14 py-11">
           <div className="grid md:grid-cols-2 grid-cols-1 place-content-center place-items-center">
             <div className="">
               <div className="bg-[#0880C4] w-28 h-28 rounded-full mb-5"></div>
@@ -174,7 +174,7 @@ const ProfileComponent = () => {
             </form>
           ) : null}
           <form action="">
-            <div className="grid md:grid-cols-2 grid-cols-1 text-center md:space-y-0 space-y-3 ">
+            <div className="grid md:grid-cols-2 grid-cols-1 text-center md:ml-3 ml-9 md:space-y-0 space-y-3 ">
               <input
                 className="bg-gray-200 placeholder:text-black placeholder:px-4 h-11 w-72 rounded-md focus:outline-none focus:border-b-2 focus:border-blue-600 "
                 type="text"
