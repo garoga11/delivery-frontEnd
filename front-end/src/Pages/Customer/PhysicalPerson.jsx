@@ -1,15 +1,15 @@
 import React from 'react';
 import Navbar from '../../Components/Navbar'
 import Sidebar from '../../Components/Sidebar';
-import RequestComponent from '../../Components/Requests'
+import PhysicalPersonComponent from '../../Components/PhysicalPerson'
 
-export default class Profile extends React.Component {
+export default class PhysicalPerson extends React.Component {
 
     render(){
         return(
             <React.Fragment>
                 <Navbar />
-                <Sidebar component = {(<RequestComponent/>)} />
+                <Sidebar component = {(<PhysicalPersonComponent/>)} />
             </React.Fragment>
         );
     }

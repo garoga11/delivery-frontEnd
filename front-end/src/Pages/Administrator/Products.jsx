@@ -1,15 +1,15 @@
 import React from 'react';
 import Navbar from '../../Components/Navbar'
 import Sidebar from '../../Components/Sidebar';
-import RequestComponent from '../../Components/Requests'
+import Products from '../../Components/Products'
 
-export default class Profile extends React.Component {
+export default class Produts extends React.Component {
 
     render(){
         return(
             <React.Fragment>
                 <Navbar />
-                <Sidebar component = {(<RequestComponent/>)} />
+                <Sidebar component = {(<Products/>)} />
             </React.Fragment>
         );
     }

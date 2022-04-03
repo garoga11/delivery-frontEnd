@@ -6,7 +6,7 @@ export default class RegisterDecision extends React.Component{
     render(){
         return(
             <React.Fragment>
-               <div classNameName="md:container md:mx-auto" >
+               <div className="md:mx-auto" >
                 <div className="flex flex-col h-screen bg-blue-400">
                     <div className="pt-5 flex justify-around items-center">
                         <img src={logo} className="w-20"/>

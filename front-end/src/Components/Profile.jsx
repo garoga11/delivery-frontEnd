@@ -1,8 +1,8 @@
-
+import React from 'react';
 const ProfileComponent = () => {
     const type = 1;
   return (
-    <div classNameName="">
+    <div className="">
       <div className="flex flex-col justify-center items-center min-h-screen">
         <div className=" bg-white md:w-[52rem] w-[22rem]  rounded-[60px] shadow flex flex-col md:px-24 py-11">
           <div className="grid md:grid-cols-2 grid-cols-1 place-content-center place-items-center">

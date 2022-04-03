@@ -5,7 +5,7 @@ export default class RegisterClient extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div classNameName="container mx-auto">
+        <div className=" mx-auto">
           <div className="md:h-screen h-full bg-blue-400">
             <div className="pt-5 flex justify-around items-center mb-10">
               <img src={logo} className="w-20" />
